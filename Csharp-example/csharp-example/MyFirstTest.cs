@@ -24,9 +24,8 @@ namespace csharp_example
         public void FirstTest()
         {
             driver.Url = "http://www.google.com/";
-            driver.FindElement(By.Name("q")).SendKeys("webdriver");
-            driver.FindElement(By.Name("btnK")).Click();
-            wait.Until(ExpectedConditions.TitleIs("webdriver - Поиск в Google"));
+            driver.FindElement(By.Name("q")).SendKeys("webdriver"+Keys.Enter);
+            wait.Until(ExpectedConditions.TitleIs("webdriver - Пошук Google"));
         }
 
         [TearDown]
