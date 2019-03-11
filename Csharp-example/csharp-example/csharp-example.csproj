@@ -60,7 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginToAdmin.cs" />
+    <Compile Include="LoginToAdminFirefoxESR.cs" />
+    <Compile Include="LoginToAdminFirefoxNightly.cs" />
+    <Compile Include="LoginToAdminIE.cs" />
+    <Compile Include="LoginToAdminChrome.cs" />
+    <Compile Include="LoginToAdminFirefox.cs" />
     <Compile Include="MyFirstTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
