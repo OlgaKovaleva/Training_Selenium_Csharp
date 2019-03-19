@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllPagesCheck.cs" />
     <Compile Include="LoginToAdminFirefoxESR.cs" />
     <Compile Include="LoginToAdminFirefoxNightly.cs" />
     <Compile Include="LoginToAdminIE.cs" />
