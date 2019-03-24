@@ -26,7 +26,7 @@ namespace csharp_example
             driver.Url = "http://localhost:8080/litecart";
             wait.Until(ExpectedConditions.ElementExists(By.Id("slider-wrapper")));
 
-            var productItems = driver.FindElements(By.CssSelector("li.product.column.shadow.hover-light"));
+            var productItems = driver.FindElements(By.CssSelector("[class^=product]"));
             foreach(var productItem in productItems)
             {
                 var stickerAmount=productItem.FindElements(By.CssSelector("[class^=sticker]")).Count;

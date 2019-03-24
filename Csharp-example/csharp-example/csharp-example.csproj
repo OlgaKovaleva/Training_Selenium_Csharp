@@ -60,15 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllPagesCheck.cs" />
-    <Compile Include="CountriesOrderCheck.cs" />
-    <Compile Include="GeozonesOrderCheck.cs" />
-    <Compile Include="LoginToAdminFirefoxESR.cs" />
-    <Compile Include="LoginToAdminFirefoxNightly.cs" />
-    <Compile Include="LoginToAdminIE.cs" />
-    <Compile Include="LoginToAdminChrome.cs" />
-    <Compile Include="LoginToAdminFirefox.cs" />
-    <Compile Include="MainPageStickerCheck.cs" />
+    <Compile Include="AdminTests\AllPagesCheck.cs" />
+    <Compile Include="AdminTests\CountriesOrderCheck.cs" />
+    <Compile Include="AdminTests\GeozonesOrderCheck.cs" />
+    <Compile Include="AdminTests\LoginToAdminFirefoxESR.cs" />
+    <Compile Include="AdminTests\LoginToAdminFirefoxNightly.cs" />
+    <Compile Include="AdminTests\LoginToAdminIE.cs" />
+    <Compile Include="AdminTests\LoginToAdminChrome.cs" />
+    <Compile Include="AdminTests\LoginToAdminFirefox.cs" />
+    <Compile Include="ShopTests\MainPageStickerCheck.cs" />
     <Compile Include="MyFirstTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
