@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllPagesCheck.cs" />
+    <Compile Include="CountriesOrderCheck.cs" />
+    <Compile Include="GeozonesOrderCheck.cs" />
     <Compile Include="LoginToAdminFirefoxESR.cs" />
     <Compile Include="LoginToAdminFirefoxNightly.cs" />
     <Compile Include="LoginToAdminIE.cs" />
