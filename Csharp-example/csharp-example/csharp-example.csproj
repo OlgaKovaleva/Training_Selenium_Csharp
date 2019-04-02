@@ -71,6 +71,7 @@
     <Compile Include="ShopTests\MainPageStickerCheck.cs" />
     <Compile Include="MyFirstTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShopTests\NewUserRegistrationCheck.cs" />
     <Compile Include="ShopTests\ProductDetailsCheckChrome.cs" />
     <Compile Include="ShopTests\ProductDetailsCheckFirefox.cs" />
     <Compile Include="ShopTests\ProductDetailsCheckIE.cs" />
