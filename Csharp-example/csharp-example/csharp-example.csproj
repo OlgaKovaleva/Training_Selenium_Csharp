@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminTests\AllPagesCheck.cs" />
+    <Compile Include="AdminTests\CountriesEditLinkCheck.cs" />
     <Compile Include="AdminTests\CountriesOrderCheck.cs" />
     <Compile Include="AdminTests\GeozonesOrderCheck.cs" />
     <Compile Include="AdminTests\LoginToAdminFirefoxESR.cs" />
