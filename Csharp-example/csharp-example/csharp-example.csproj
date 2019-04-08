@@ -70,6 +70,7 @@
     <Compile Include="AdminTests\LoginToAdminChrome.cs" />
     <Compile Include="AdminTests\LoginToAdminFirefox.cs" />
     <Compile Include="AdminTests\NewProductAddCheck.cs" />
+    <Compile Include="ShopTests\CheckoutCheck.cs" />
     <Compile Include="ShopTests\MainPageStickerCheck.cs" />
     <Compile Include="MyFirstTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
